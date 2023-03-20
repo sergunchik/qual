@@ -1,4 +1,4 @@
-O programa do [Misha Verbitsky](verbit.ru), 
+O programa do [Misha Verbitsky](https://verbit.ru), 
 originalmente escrito em 2002 para os alunos matemáticos no [ITEP](http://wwwth.itep.ru/).
 uma tradução do [original russo](http://imperium.lenin.ru/~verbit/MATH/programma.html).
 
