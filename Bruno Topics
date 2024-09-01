@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{comment}
+\usepackage[utf8]{inputenc}
+\author{BS}
+\usepackage{amsfonts} 
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\renewcommand{\S}{\mathbb{S}}
+\begin{document}
+\section*{List of topics for qualification exam (Bruno)}
+\subsection*{Basic Topics}
+\subsubsection*{Riemannian Geometry}
+\begin{itemize}
+\item Riemannian Space forms: spaces of constant sectional curvature
+    \item Geodesic Completness and Hopf-Rinow Theorem
+    \item Second variation of energy and Bonnet-Myers theorem
+    \item Jacobi Fields and Cartan-Hadamard theorem
+    \item Berger's Landscape: Riemannian metrics with special Holonomy
+\end{itemize}
+\subsubsection*{Symplectic Geometry}
+\begin{itemize}
+    \item Moser's trick on compact manifolds
+    \item Darboux-Weinstein Theorem on local form
+    \item Weinstein's Lagrangian neighbourhood theorem
+    \item Weinstein-Marsden Theorem on Symplectic reduction
+    \item Kempft-Ness theorem and GIT quotient
+\end{itemize}
+\subsubsection*{Complex Geometry}
+\begin{itemize}
+    \item Newland-Nirenberg Theorem
+	\item Divisors and Line bundles, rational maps to projective space
+	\item K\"ahler manifolds and Hodge Theory
+        \item Main theorems from the course ``Introduction to Complex Geometry"
+	\item Atiyah classes of holomorphic vector bundles and holomorphic connections
+\end{itemize}
+
+\subsection*{Specific Topics}
+
+\subsubsection*{Rational Maps preserving Log-Volume form}
+\begin{itemize}
+    \item Scaling-Winding conjecture 
+    \item Counterexample to naive log-Jacobian conjecture
+\end{itemize}
+
+\subsubsection*{Graph Potentials}
+\begin{itemize}
+    \item Laurent polynomials for (coloured) trivalent graphs with external edges
+    \item TQFT satisfying modified version of Atiyah axioms
+\end{itemize}
+\begin{comment}
+    \subsubsection*{Jacobian Conjecture}
+\begin{itemize}
+    \item Enough to prove injective. Enough to prove proper. Equivalent over any field of characteristic 0.
+    \item Bass-Connel-Wright (82): Stably equivalent to degree 3, $F(x) = x-H(x)$, with $H(x)$ homogeneous polynomial map.
+    \item Botanical Series for formal inverse of any invertible formal map.
+\end{itemize}
+\end{comment}
+\end{document}
