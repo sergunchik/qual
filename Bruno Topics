@@ -1,4 +1,6 @@
 \documentclass{article}
+\usepackage{biblatex}
+\addbibresource{refs.bib}
 \usepackage{comment}
 \usepackage[utf8]{inputenc}
 \author{BS}
@@ -12,51 +14,72 @@
 \renewcommand{\S}{\mathbb{S}}
 \begin{document}
 \section*{List of topics for qualification exam (Bruno)}
-\subsection*{Basic Topics}
-\subsubsection*{Riemannian Geometry}
+\subsection*{Basic Topics:}
+\subsubsection*{Riemannian Geometry \cite{docarmo}, \cite{besse2007einstein}, \cite{jost2008riemannian}}
 \begin{itemize}
-\item Riemannian Space forms: spaces of constant sectional curvature
     \item Geodesic Completness and Hopf-Rinow Theorem
-    \item Second variation of energy and Bonnet-Myers theorem
-    \item Jacobi Fields and Cartan-Hadamard theorem
-    \item Berger's Landscape: Riemannian metrics with special Holonomy
+    \item Berger's Landscape and relation to Supersymmetry
 \end{itemize}
-\subsubsection*{Symplectic Geometry}
+\subsubsection*{Symplectic Geometry \cite{Arnold}, \cite{guillemin1990symplectic}, \cite{da2001lectures}}
 \begin{itemize}
-    \item Moser's trick on compact manifolds
-    \item Darboux-Weinstein Theorem on local form
-    \item Weinstein's Lagrangian neighbourhood theorem
+    \item Moser's trick on compact manifolds and applications.
+%    \begin{itemize}
+%        \item Moser theorem on family of cohomology classes
+%        \item Darboux-Weinstein Theorem on local form around closed subset
+%        \item Weinstein's Lagrangian neighbourhood theorem
+%    \end{itemize}
+    \item Arnold-Liouville Theorem
     \item Weinstein-Marsden Theorem on Symplectic reduction
-    \item Kempft-Ness theorem and GIT quotient
 \end{itemize}
-\subsubsection*{Complex Geometry}
+\subsubsection*{Complex Geometry \cite{huybrechts2005complex}, \cite{griffiths2014principles}, \cite{Voisin_2002}}
 \begin{itemize}
-    \item Newland-Nirenberg Theorem
 	\item Divisors and Line bundles, rational maps to projective space
-	\item K\"ahler manifolds and Hodge Theory
-        \item Main theorems from the course ``Introduction to Complex Geometry"
+	\item Harmonic Forms and Hodge Decomposition of Cohomology for Kahler
+        \item Hodge Index Theorem for surfaces and Lefschetz hyperplane theorem
 	\item Atiyah classes of holomorphic vector bundles and holomorphic connections
 \end{itemize}
 
+\subsubsection*{Geometric Quantization}
+\begin{itemize}
+    \item Geometric/Holomorphic quantization of kahler manifolds \cite{Schlichenmaier_2010}
+%    \begin{itemize}
+%        \item Berezin-Toeplitz operators on quantizable compact kahler manifolds and classical limit ($m>>1$) \cite{Bordemann_1994}, \cite{Ma_2008}
+%    \end{itemize}
+    \item Deformation Quantization
+    \begin{itemize}
+        \item Kontsevich's theorem about DQ of Poisson manifolds. \cite{Kontsevich_2003}
+        \item Example via Berezin-Toeplitz operators \cite{schlichenmaier1999deformationquantizationcompactkaehler}.
+    \end{itemize}
+\end{itemize}
+\subsubsection*{Extra topics related to modern mathematical physics}
+\begin{itemize}
+    \item Aspects of Mirror Symmetry
+    \item Exactly solvable Lattice models
+    \item Notions of Quantum Field Theory
+\end{itemize}
+\clearpage
 \subsection*{Specific Topics}
 
-\subsubsection*{Rational Maps preserving Log-Volume form}
+\subsubsection*{Jacobian Conjecture \cite{BCW}}
 \begin{itemize}
-    \item Scaling-Winding conjecture 
-    \item Counterexample to naive log-Jacobian conjecture
+    \item Enough to prove injective (many proofs). Enough to prove $F$ is proper. Equivalent over any field of characteristic 0. Bass-Connel-Wright (82).
+    \item Botanical Series for formal inverse of any invertible formal map $F$ (in particular any holomorphic function $F$ with $F(0)=0$ and $DF(0)=\mathrm{Id}$).
+    \item Formulation via Wick's sum \cite{Abdesselam}
 \end{itemize}
 
-\subsubsection*{Graph Potentials}
+\subsubsection*{Rozansky-Witten Theory and Chern-Simons Theory}
 \begin{itemize}
-    \item Laurent polynomials for (coloured) trivalent graphs with external edges
-    \item TQFT satisfying modified version of Atiyah axioms
+    \item The weight systems: linear algebra data and graphs. IHX relation. \cite{sawon2004rozanskywitteninvariantshyperkahlermanifolds}
+    \item Application of Rozansky-Witten weight system with Chern numbers in compact Hyperkahler manifolds \cite{hitchin1999curvaturecharacteristicnumbershyperkahler}.
+    \item The Quantum Field Theories: \cite{qftjones}, \cite{rozansky1997hyperkahlergeometryinvariantsthreemanifolds}
+    \begin{itemize}
+        \item Chern-Simons Theory as a Gauge Theory on a trivial $G$-bundle over compact $3$-manifold $M$. Quantization \cite{Axelrod:1989xt} on cylinder $M=\Sigma\times \R$:
+$$
+\mbox{ Geometric Quantization of }\mathrm{Hom}(\pi_1(\Sigma),G)/G.
+$$
+    \item Rozansky-Witten Theory as 3-dimensional topological sigma-model with a hyperkahler manifold as target space.
+    \end{itemize}
 \end{itemize}
-\begin{comment}
-    \subsubsection*{Jacobian Conjecture}
-\begin{itemize}
-    \item Enough to prove injective. Enough to prove proper. Equivalent over any field of characteristic 0.
-    \item Bass-Connel-Wright (82): Stably equivalent to degree 3, $F(x) = x-H(x)$, with $H(x)$ homogeneous polynomial map.
-    \item Botanical Series for formal inverse of any invertible formal map.
-\end{itemize}
-\end{comment}
+
+\printbibliography
 \end{document}
