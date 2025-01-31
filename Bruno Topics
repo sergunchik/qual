@@ -54,9 +54,9 @@
 %        \item Kontsevich's formula via Perturbative poisson $\sigma$-model.    
 \end{itemize}
 \end{itemize}
-\subsubsection*{Topics on Modern Mathematical Physics \cite{baxter2007exactly,QFT-Strings,Mirror}}
+\subsubsection*{Topics on Modern Mathematical Physics \cite{QFT-Strings,Mirror}}
 \begin{itemize}
-    \item Exactly solvable models in Statistical Mechanics
+    \item Notions of Quantum Field Theory
     \item Supersymmetric $\sigma$-models and special holonomies
     \item Aspects of Mirror Symmetry
 \end{itemize}
